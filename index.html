@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Pixel Art</title>
+</head>
+<body>
+    <h1>Pixel Art</h1>
+    <div id="input">
+        <p>Choose Grid Size & Color</p>
+        <form id="sizePicker">
+            Height: 
+            <input type="number" id="height" name="height" min="1" max="50" value="25">
+            Width:
+            <input type="number" id="width" name="width" min="1" max="50" value="25">
+            <input type="submit" class="submitButton" value="submit">
+            Color
+            <input type="color" id="colorPicker" value="#000000">
+        </form>
+        <br>
+    </div>
+
+    <div id="container"> 
+        <table id="canvas">
+
+        </table>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
